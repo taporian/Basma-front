@@ -11,13 +11,14 @@ const {width}= useWindowDimensions();
   <>
 
              <div className='clip'>
-             { width > 854 ?           
+             { width > 854 ?     
+            
              <Shape       
 					width="100%"
 					height="90vh"
 					showLabel={true}
 					backgroundColor="#5812ed"
-					formula="polygon(38.2% 0, 100% 0, 100% 45%, 77% 80%)"
+					formula={`polygon(38.2% 0, 100% 0, 100% 45%, 77% 80%)`}
 				/>:
                 <Shape       
                 width="100%"
@@ -27,7 +28,7 @@ const {width}= useWindowDimensions();
                 formula="polygon(3.2% 0, 100% 0, 100% 45%, 77% 80%)"
             />
              }
-               
+              
                   </div>
                   </>
       

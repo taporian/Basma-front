@@ -1,5 +1,31 @@
 
 import styled from "styled-components";
+
+export const Logo = styled.a`
+  padding: 1rem 1rem;
+  color: #404145;
+
+  margin-right: auto;
+  text-decoration: none;
+  font-weight: 1000;
+  font-size: 2rem;
+  font-family:Arial Black;
+  letter-spacing: -2.5px;
+  &:hover{
+    color: #404145;
+  }
+  span {
+   
+    font-weight: 400;
+    font-size: 1.5rem;
+  }
+  @media (max-width: 768px) {
+    margin-left:11rem;
+    color:white;
+ 
+  }
+`;
+
 export const MenuLink = styled.a`
   padding: 1rem 2rem;
   
